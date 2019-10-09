@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reciclapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Contenedores.ContenedoresVerdes"></activity>
+        <activity android:name=".articulos.Florero" />
+        <activity android:name=".articulos.JoyeroPopotes" />
+        <activity android:name=".articulos.Sillas" />
+        <activity android:name=".articulos.Estantes" />
+        <activity android:name=".articulos.BolsaRegalo" />
+        <activity android:name=".articulos.Canasta" />
+        <activity android:name=".articulos.Bolso" />
+        <activity android:name=".articulos.Cartera" />
+        <activity android:name=".articulos.MacetaLata" />
+        <activity android:name=".articulos.Lapicera" />
+        <activity android:name=".articulos.Lampara" />
+        <activity android:name=".articulos.Joyero" />
+        <activity android:name=".articulos.Escobas" />
+        <activity android:name=".Lugares.RioFrio" />
+        <activity android:name=".Lugares.Lineal" />
+        <activity android:name=".Lugares.Nacimiento" />
+        <activity android:name=".Lugares.Linares" />
+        <activity android:name=".Lugares.InformacionRioFrio" />
+        <activity android:name=".Lugares.InformacionParqueLineal" />
+        <activity android:name=".Lugares.InformacionNacimiento" />
+        <activity android:name=".Lugares.InformacionLinares" />
+        <activity android:name=".Lugares.InformacionRastro" />
+        <activity android:name=".fragments.ContenedorAzul" />
+        <activity android:name=".Lugares.InformacionDifusora" />
+        <activity android:name=".Lugares.Rastro" />
+        <activity android:name=".Lugares.LaDifusora" />
+        <activity android:name=".articulos.maceta" />
+        <activity android:name=".fragments.ContenedoresBasura" />
+        <activity android:name=".Contenedores.ContenedorRojo" />
+        <activity android:name=".Contenedores.ContenedorGris" />
+        <activity android:name=".Contenedores.ContenedorNaranja" />
+        <activity android:name=".Contenedores.ContenedorVerde" />
+        <activity android:name=".Contenedores.ContenedorAzul" />
+        <activity android:name=".Contenedores.ContenedorAmarillo" />
+        <activity
+            android:name=".Reciclar.Popotes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SabiasQue.SabiasQuePopotes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reciclar.Madera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SabiasQue.SabiasQueMadera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reciclar.Papel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SabiasQue.SabiasQuePapel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reciclar.Bolsas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SabiasQue.SabiasQueBolsas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reciclar.Latas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SabiasQue.SabiasQueLatas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reciclar.botellas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SabiasQue.SabiasQueBotellas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CurvedNavigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBw0n4che2f43ryP1gYI8BcBfqZy8095aw" />
+    </application>
+
+</manifest>

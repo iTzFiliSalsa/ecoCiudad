@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/lista_degradados"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Login">
+    <LinearLayout
+        android:id="@+id/uno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/logo"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:fontFamily="@font/nunito_bold"
+                android:textSize="30dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empecemos"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="#ffffff"
+            android:textSize="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Para poder usar la aplicación, ingrese su nombre"/>
+    </LinearLayout>
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/dos"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/redondeado_blanco"
+            android:outlineAmbientShadowColor="#000000"
+            android:layout_below="@+id/uno"
+            android:orientation="vertical">
+            <EditText
+                android:hint="Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:singleLine="true"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/redondeado_boton"
+                android:text="Continuar"
+                android:id="@+id/continua"
+                android:textColor="#999"/>
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

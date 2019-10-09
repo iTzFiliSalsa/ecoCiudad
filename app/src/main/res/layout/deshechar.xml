@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/curva_izquierda_rosa"
+    android:layout_height="match_parent">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <LinearLayout
+               android:id="@+id/l2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:gravity="center_vertical"
+               android:layout_marginTop="30dp"
+               android:layout_marginBottom="0dp"
+               android:paddingLeft="30dp"
+               android:paddingRight="30dp"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Deshechar"
+                   android:fontFamily="@font/nunito_bold"
+                   android:textAlignment="center"
+                   android:textColor="#fff"
+                   android:textSize="30dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Selecciona el contenedor donde necesites información o la basura a deshechar."
+                   android:textColor="@color/white"
+                   android:fontFamily="@font/nunito_regular"/>
+
+           </LinearLayout>
+           <GridLayout
+               android:layout_below="@+id/l2"
+               android:id="@+id/contenedores"
+               android:layout_width="match_parent"
+               android:layout_height="125dp"
+               android:columnCount="3"
+               android:rowCount="1"
+               android:alignmentMode="alignMargins"
+               android:columnOrderPreserved="false"
+               android:layout_weight="8"
+               android:paddingLeft="30dp"
+               android:paddingRight="30dp">
+               <androidx.cardview.widget.CardView
+                   android:foreground="?android:attr/selectableItemBackground"
+                   android:clickable="true"
+                   android:id="@+id/amarillo"
+                   android:layout_margin="20dp"
+                   android:layout_width="0dp"
+                   android:layout_height="0dp"
+                   android:layout_columnWeight="1"
+                   android:layout_rowWeight="1"
+                   android:layout_marginBottom="16dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="16dp"
+                   app:cardElevation="8dp"
+                   app:cardCornerRadius="8dp">
+                   <LinearLayout
+                       android:layout_gravity="center_horizontal|center_vertical"
+                       android:layout_margin="16dp"
+                       android:orientation="vertical"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+                       <ImageView
+                           android:src="@drawable/contenedor_amarillo"
+                           android:layout_gravity="center_horizontal"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp" />
+
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:foreground="?android:attr/selectableItemBackground"
+                   android:clickable="true"
+                   android:id="@+id/azul"
+                   android:layout_width="0dp"
+                   android:layout_height="0dp"
+                   android:layout_columnWeight="1"
+                   android:layout_rowWeight="1"
+                   android:layout_margin="20dp"
+                   android:layout_marginBottom="16dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="16dp"
+                   app:cardElevation="8dp"
+                   app:cardCornerRadius="8dp">
+                   <LinearLayout
+                       android:layout_gravity="center_horizontal|center_vertical"
+                       android:layout_margin="16dp"
+                       android:orientation="vertical"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <ImageView
+                           android:src="@drawable/contenedor_azul"
+                           android:layout_gravity="center_horizontal"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp" />
+
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:foreground="?android:attr/selectableItemBackground"
+                   android:clickable="true"
+                   android:id="@+id/verde"
+                   android:layout_width="0dp"
+                   android:layout_height="0dp"
+                   android:layout_columnWeight="1"
+                   android:layout_rowWeight="1"
+                   android:layout_margin="20dp"
+                   android:layout_marginBottom="16dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="16dp"
+                   app:cardElevation="8dp"
+                   app:cardCornerRadius="8dp">
+                   <LinearLayout
+                       android:layout_gravity="center_horizontal|center_vertical"
+                       android:layout_margin="16dp"
+                       android:orientation="vertical"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <ImageView
+                           android:src="@drawable/contenedor_verde"
+                           android:layout_gravity="center_horizontal"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp" />
+
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView>
+               <!--<androidx.cardview.widget.CardView
+                   android:foreground="?android:attr/selectableItemBackground"
+                   android:clickable="true"
+                   android:id="@+id/naranja"
+                   android:layout_width="0dp"
+                   android:layout_height="0dp"
+                   android:layout_columnWeight="1"
+                   android:layout_rowWeight="1"
+                   android:layout_marginTop="0dp"
+                   android:layout_marginBottom="16dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="16dp"
+                   app:cardElevation="8dp"
+                   app:cardCornerRadius="8dp">
+                   <LinearLayout
+                       android:layout_gravity="center_horizontal|center_vertical"
+                       android:layout_margin="16dp"
+                       android:orientation="vertical"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <ImageView
+                           android:src="@drawable/contenedor_naranja"
+                           android:layout_gravity="center_horizontal"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp" />
+
+
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:foreground="?android:attr/selectableItemBackground"
+                   android:clickable="true"
+                   android:id="@+id/gris"
+                   android:layout_width="0dp"
+                   android:layout_height="0dp"
+                   android:layout_columnWeight="1"
+                   android:layout_rowWeight="1"
+                   android:layout_marginTop="0dp"
+                   android:layout_marginBottom="16dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="16dp"
+                   app:cardElevation="8dp"
+                   app:cardCornerRadius="8dp">
+                   <LinearLayout
+                       android:layout_gravity="center_horizontal|center_vertical"
+                       android:layout_margin="16dp"
+                       android:orientation="vertical"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <ImageView
+                           android:src="@drawable/contenedor_gris"
+                           android:layout_gravity="center_horizontal"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp" />
+
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView>
+               <androidx.cardview.widget.CardView
+                   android:foreground="?android:attr/selectableItemBackground"
+                   android:clickable="true"
+                   android:id="@+id/rojo"
+                   android:layout_width="0dp"
+                   android:layout_height="0dp"
+                   android:layout_columnWeight="1"
+                   android:layout_rowWeight="1"
+                   android:layout_marginTop="0dp"
+                   android:layout_marginBottom="16dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="16dp"
+                   app:cardElevation="8dp"
+                   app:cardCornerRadius="8dp">
+                   <LinearLayout
+                       android:layout_gravity="center_horizontal|center_vertical"
+                       android:layout_margin="16dp"
+                       android:orientation="vertical"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <ImageView
+                           android:src="@drawable/contenedor_rojo"
+                           android:layout_gravity="center_horizontal"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp" />
+                                           <TextView
+                                               android:text="Ejemplo1"
+                                               android:fontFamily="@font/nunito_regular"
+                                               android:textAlignment="center"
+                                               android:textColor="@color/colorAccent"
+                                               android:layout_width="wrap_content"
+                                               android:layout_height="wrap_content" />
+
+                   </LinearLayout>
+               </androidx.cardview.widget.CardView> -->
+           </GridLayout>
+           <View
+               android:layout_below="@+id/contenedores"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="#CCC"
+               android:layout_marginLeft="50dp"
+               android:layout_marginRight="50dp"
+               android:id="@+id/rayita"
+               />
+           <LinearLayout
+               android:layout_below="@+id/rayita"
+               android:layout_marginTop="16dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingLeft="30dp"
+               android:orientation="vertical"
+               android:paddingRight="30dp">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="#888"
+                   android:text="Acceso rapido"
+                   android:fontFamily="@font/nunito_bold"
+                   android:textAlignment="center"
+                   android:textSize="30dp"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Selecciona rapidamente el deshecho que quieres tirar para obtener información."
+                   android:textColor="#888"
+                   android:fontFamily="@font/nunito_regular"/>
+               <GridLayout
+                   android:layout_below="@+id/contenedores"
+                   android:id="@+id/mainGrid"
+                   android:columnCount="2"
+                   android:rowCount="2"
+                   android:alignmentMode="alignMargins"
+                   android:columnOrderPreserved="false"
+                   android:layout_weight="8"
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+
+                   android:layout_marginTop="16dp">
+                   <androidx.cardview.widget.CardView
+                       android:foreground="?android:attr/selectableItemBackground"
+                       android:clickable="true"
+                       android:id="@+id/unicel_plato"
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_columnWeight="1"
+                       android:layout_rowWeight="1"
+                       android:layout_marginBottom="16dp"
+                       android:layout_marginLeft="16dp"
+                       android:layout_marginRight="16dp"
+                       app:cardElevation="8dp"
+                       app:cardCornerRadius="8dp">
+                       <LinearLayout
+                           android:layout_gravity="center_horizontal|center_vertical"
+                           android:layout_margin="16dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:src="@drawable/unicel"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_width="40dp"
+                               android:layout_height="40dp" />
+
+                           <TextView
+                               android:text="Unicel"
+                               android:fontFamily="@font/nunito_regular"
+                               android:textAlignment="center"
+                               android:textColor="@color/colorAccent"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+                   <androidx.cardview.widget.CardView
+                       android:foreground="?android:attr/selectableItemBackground"
+                       android:clickable="true"
+                       android:id="@+id/papel"
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_columnWeight="1"
+                       android:layout_rowWeight="1"
+                       android:layout_marginBottom="16dp"
+                       android:layout_marginLeft="16dp"
+                       android:layout_marginRight="16dp"
+                       app:cardElevation="8dp"
+                       app:cardCornerRadius="8dp"
+                       >
+
+                       <LinearLayout
+                           android:layout_gravity="center_horizontal|center_vertical"
+                           android:layout_margin="16dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:src="@drawable/rollo"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_width="40dp"
+                               android:layout_height="40dp" />
+
+                           <TextView
+                               android:text="Papel sucio"
+                               android:fontFamily="@font/nunito_regular"
+                               android:textAlignment="center"
+                               android:textColor="@color/colorAccent"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+                   <androidx.cardview.widget.CardView
+                       android:foreground="?android:attr/selectableItemBackground"
+                       android:clickable="true"
+                       android:id="@+id/botella_acc"
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_columnWeight="1"
+                       android:layout_rowWeight="1"
+                       android:layout_marginBottom="16dp"
+                       android:layout_marginLeft="16dp"
+                       android:layout_marginRight="16dp"
+                       app:cardElevation="8dp"
+                       app:cardCornerRadius="8dp"
+                       >
+
+                       <LinearLayout
+                           android:layout_gravity="center_horizontal|center_vertical"
+                           android:layout_margin="16dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:src="@drawable/botella"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_width="40dp"
+                               android:layout_height="40dp" />
+
+                           <TextView
+                               android:text="Botella"
+                               android:fontFamily="@font/nunito_regular"
+                               android:textAlignment="center"
+                               android:textColor="@color/colorAccent"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+                   <androidx.cardview.widget.CardView
+                       android:foreground="?android:attr/selectableItemBackground"
+                       android:clickable="true"
+                       android:id="@+id/botella_vidrio"
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_columnWeight="1"
+                       android:layout_rowWeight="1"
+                       android:layout_marginBottom="16dp"
+                       android:layout_marginLeft="16dp"
+                       android:layout_marginRight="16dp"
+                       app:cardElevation="8dp"
+                       app:cardCornerRadius="8dp"
+                       >
+
+                       <LinearLayout
+                           android:layout_gravity="center_horizontal|center_vertical"
+                           android:layout_margin="16dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:src="@drawable/vidrio"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_width="40dp"
+                               android:layout_height="40dp" />
+
+                           <TextView
+                               android:text="Vidrio"
+                               android:fontFamily="@font/nunito_regular"
+                               android:textAlignment="center"
+                               android:textColor="@color/colorAccent"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+                  <!-- <androidx.cardview.widget.CardView
+                       android:foreground="?android:attr/selectableItemBackground"
+                       android:clickable="true"
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_columnWeight="1"
+                       android:layout_rowWeight="1"
+                       android:layout_marginBottom="16dp"
+                       android:layout_marginLeft="16dp"
+                       android:layout_marginRight="16dp"
+                       app:cardElevation="8dp"
+                       app:cardCornerRadius="8dp"
+                       >
+
+                       <LinearLayout
+                           android:layout_gravity="center_horizontal|center_vertical"
+                           android:layout_margin="16dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:src="@drawable/panal"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_width="40dp"
+                               android:layout_height="40dp" />
+
+                           <TextView
+                               android:text="Pañales"
+                               android:textAlignment="center"
+                               android:textColor="@color/colorAccent"
+                               android:fontFamily="@font/nunito_regular"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+                   <androidx.cardview.widget.CardView
+                       android:foreground="?android:attr/selectableItemBackground"
+                       android:clickable="true"
+                       android:layout_width="0dp"
+                       android:layout_height="0dp"
+                       android:layout_columnWeight="1"
+                       android:layout_rowWeight="1"
+                       android:layout_marginBottom="16dp"
+                       android:layout_marginLeft="16dp"
+                       android:layout_marginRight="16dp"
+                       app:cardElevation="8dp"
+                       app:cardCornerRadius="8dp"
+                       >
+                       <LinearLayout
+                           android:layout_gravity="center_horizontal|center_vertical"
+                           android:layout_margin="16dp"
+                           android:orientation="vertical"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:src="@drawable/llantas"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_width="40dp"
+                               android:layout_height="40dp" />
+
+                           <TextView
+                               android:text="Llantas"
+                               android:fontFamily="@font/nunito_regular"
+                               android:textAlignment="center"
+                               android:textColor="@color/colorAccent"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>-->
+               </GridLayout>
+           </LinearLayout>
+
+       </RelativeLayout>
+   </ScrollView>
+
+
+</LinearLayout>

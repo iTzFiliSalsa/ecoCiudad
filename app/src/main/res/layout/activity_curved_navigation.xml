@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurvedNavigation">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/degradado_rosa">
+
+    </androidx.viewpager.widget.ViewPager>
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        app:active_item_color="@color/colorAccent"
+        app:centre_button_color="#bef487"
+        app:active_centre_button_icon_color="#fff"
+        app:active_centre_button_background_color="#bef487"
+        app:inactive_item_color="#888"
+        app:space_background_color="#FFFFFF"
+        app:centre_button_icon="@drawable/ic_recycle"
+        app:space_item_icon_size="20dp"
+        app:space_item_icon_only_size="@dimen/space_item_icon_only_size"
+        app:space_item_text_size="@dimen/space_item_text_default_size" />
+
+</RelativeLayout>
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurvedNavigation">
+    <RelativeLayout
+        android:id="@+id/lin_id"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:background="@drawable/oval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:id="@+id/fab"
+            android:layout_centerInParent="true"
+            android:layout_margin="12dp"
+            android:visibility="gone"
+            app:elevation="6dp"
+            app:vector_src="@drawable/ic_content_cut_black_24dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"/>
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:id="@+id/fab1"
+            android:layout_centerInParent="true"
+            android:layout_margin="12dp"
+            app:elevation="6dp"
+            app:vector_src="@drawable/ic_location_on_black_24dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"/>
+        <com.sdsmdg.harjot.vectormaster.VectorMasterView
+            android:id="@+id/fab2"
+            android:layout_centerInParent="true"
+            android:layout_margin="12dp"
+            android:visibility="gone"
+            app:elevation="6dp"
+            app:vector_src="@drawable/ic_add_black_24dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"/>
+    </RelativeLayout>
+        <com.example.reciclapp.CurvedBottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="parent">
+        </com.example.reciclapp.CurvedBottomNavigationView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/degradado_rosa"></FrameLayout>
+</RelativeLayout>
+-->

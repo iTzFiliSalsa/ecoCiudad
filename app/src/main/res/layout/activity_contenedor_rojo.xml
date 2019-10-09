@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/curva_rojo"
+    android:gravity="center_horizontal"
+    tools:context=".Contenedores.ContenedorRojo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/regresar"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/regresar_latas"
+                    android:src="@drawable/ic_regresar"
+                    />
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_lightbulb_outline_black_24dp"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_below="@id/regresar"
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contenedor Rojo"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A continuación se muestran los deshechos que van en el contenedor rojo."
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nunito_regular"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_below="@+id/titulo"
+                android:id="@+id/contenido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/curveado_blanco"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/perfilrojo"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Rojo"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textColor="#888"
+                            android:textSize="25dp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="El contenedor rojo es más especial, no se suele encontrar en los núcleos urbanos con frecuencia, y es el destinado a contener residuos tóxicos y peligrosos."
+                            android:textColor="#888"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/nunito_regular"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#eaeaea"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/contornolata"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#888"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/nunito_regular"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#eaeaea"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/arbol"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="El aluminio proviene de un material llamado bauxitia, que al extraerlo de la tierra, elimina todo tipo de vegetación que exista en el lugar."
+                        android:textColor="#888"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/nunito_regular"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#eaeaea"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/amarillo"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Las latas de aluminio, se deshechan en el contenedor amarillo"
+                        android:textColor="#888"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/nunito_regular"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_marginTop="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#eaeaea"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A continuación, se muestran ideas para reciclar latas."
+                    android:textAlignment="center"
+                    android:textColor="#888"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/nunito_regular"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/contenido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:rowCount="2"
+                    android:columnCount="2"
+                    android:orientation="horizontal"
+                    android:alignmentMode="alignMargins"
+                    android:columnOrderPreserved="false"
+                    android:layout_weight="8"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginBottom="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp">
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/reciclar"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp" />
+
+                            <TextView
+                                android:text="Ejemplo1"
+                                android:fontFamily="@font/nunito_regular"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorAccent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp">
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/reciclar"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp" />
+
+                            <TextView
+                                android:text="Ejemplo2"
+                                android:fontFamily="@font/nunito_regular"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorAccent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginBottom="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp">
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/reciclar"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp" />
+
+                            <TextView
+                                android:text="Ejemplo1"
+                                android:fontFamily="@font/nunito_regular"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorAccent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="16dp"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="8dp">
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:layout_margin="16dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:src="@drawable/reciclar"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp" />
+                            <TextView
+                                android:text="Ejemplo2"
+                                android:fontFamily="@font/nunito_regular"
+                                android:textAlignment="center"
+                                android:textColor="@color/colorAccent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </GridLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

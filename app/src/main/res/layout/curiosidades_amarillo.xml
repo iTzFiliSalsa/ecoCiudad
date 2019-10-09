@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cur_amarillo"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redondeado_blanco"
+    android:padding="25dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curiosidades del contenedor amarillo"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="#000"
+        android:textSize="25dp"/>
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="15dp"
+        android:background="#888"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6 cajas de briks = caja de zapatos"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#888"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Sabias que el equivalente a 6 cajas de briks es igual a una caja de zapatos? imaginate las cosas que podremos hacer si reciclamos las cosas correctamente."
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="#888"
+        android:layout_marginBottom="15dp"
+        android:textSize="15dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/equivalencia_brik"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="88 latas de refresco = llanta de bicicleta"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#888"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Sabias que 88 latas de refresco es equivalente a una llanta de bicicleta? ¿Que prefieres? tirar latas y contaminar? ¿o usar tu bicicleta?"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginBottom="15dp"
+        android:textColor="#888"
+        android:textSize="15dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/equivalencia_llantas"/>
+</LinearLayout>
