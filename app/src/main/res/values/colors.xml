@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff3158</color>
+    <color name="colorPrimaryDark">#ff3158</color>
+    <color name="rosa_suave">#fe958b</color>
+    <color name="rosa_fuerte">#fe355a</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="soft_gray">#eaeaea</color>
+    <color name="soft_green">#b3d48d</color>
+    <color name="strong_green">#ccec86</color>
+
+
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#83878b</color>
+</resources>

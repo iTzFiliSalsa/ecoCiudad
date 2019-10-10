@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b32554a1-6d75-43cd-954a-7b72fad1dc6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Contenedores/ContenedorAmarillo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Contenedores/ContenedorAzul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Contenedores/ContenedorVerde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/InformacionDifusora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/InformacionNacimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/InformacionParqueLineal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/InformacionRastro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/InformacionRioFrio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/LaDifusora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/Lineal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/Nacimiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/Rastro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/RioFrio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/BolsaRegalo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/Bolso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/Canasta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/Cartera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/Escobas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/Estantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/Joyero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/Lampara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/Lapicera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/MacetaLata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/articulos/maceta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/ContenedoresBasura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alto_riesgo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bajo_riesgo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolsa_periodico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolsa_regalo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolso_bolsa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolso_bolsa_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canasta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canasta_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canasta_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartera_bolsas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cartera_bolsas_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curiosidades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/difusora.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/escoba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/escoba_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/escoba_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estante.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estante_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estantes_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joyas_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joyas_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joyas_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joyero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lampara.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lampara_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lampara_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lapicera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lapicera_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lineal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maceta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maceta_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maceta_lata1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macetero_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macetero_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medio_riesgo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacimiento.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/no_amarillo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/no_azul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/no_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ok_azul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ok_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasos_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasos_maceta_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pasos_maceta_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perfil_popotes_naranja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perfil_popotes_rojo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perfil_popotes_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rastro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riofrio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubicacion_amarillo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubicacion_azul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubicacion_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/curva_articulos_verde.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_regresar_gris.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ok_amarillo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../font/montserrat_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../font/montserrat_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_bolsa_regalo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_bolso.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_canasta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_cartera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_contenedor_azul2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_contenedores_basura.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_escobas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_estantes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_informacion_difusora.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_informacion_linares.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_informacion_nacimiento.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_informacion_parque_lineal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_informacion_rastro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_informacion_rio_frio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_joyero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_la_difusora.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_lampara.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_lapicera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_linares.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_lineal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_maceta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_maceta_lata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_nacimiento.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_rastro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_rio_frio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/deposita_amarillo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/deposita_azul.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/deposita_verde.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/escoba.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/joyero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/lampara.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/macetas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/no_deposites_amarillo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/no_deposites_azul.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/no_deposites_verde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/Bolsas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Reciclar/Bolsas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/ContenedorAmarillo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/InformacionLinares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/ContenedorAzul.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/ContenedorAzul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/ContenedorGris.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Contenedores/ContenedorGris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/ContenedorNaranja.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Contenedores/ContenedorNaranja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/ContenedorRojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Contenedores/ContenedorRojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/ContenedorVerde.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Lugares/Linares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/CurvedNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/CurvedNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/Latas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Reciclar/Latas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/Madera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Reciclar/Madera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/Papel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Reciclar/Papel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQueBolsas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQue/SabiasQueBolsas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQueBotellas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQue/SabiasQueBotellas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQueLatas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQue/SabiasQueLatas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQueMadera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQue/SabiasQueMadera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQuePapel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQue/SabiasQuePapel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQuePopotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/SabiasQue/SabiasQuePopotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/botellas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Reciclar/botellas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/Deshechar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/Deshechar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/Popotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/Reciclar/Popotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/Puntos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/Puntos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/Reciclar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/example/reciclapp/fragments/Reciclar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable/curva_naranja.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../drawable/curva_naranja.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_bolsas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_bolsas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_botellas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_botellas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_contenedor_amarillo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_contenedor_amarillo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_contenedor_azul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_contenedor_azul.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_contenedor_gris.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_contenedor_gris.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_contenedor_naranja.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_contenedor_naranja.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_contenedor_rojo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_contenedor_rojo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_contenedor_verde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_contenedor_verde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_latas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_latas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_madera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_madera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_papel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_papel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_popotes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_popotes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sabias_que_bolsas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_sabias_que_bolsas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sabias_que_botellas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_sabias_que_botellas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sabias_que_latas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_sabias_que_latas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sabias_que_madera.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_sabias_que_madera.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sabias_que_papel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_sabias_que_papel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_sabias_que_popotes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_sabias_que_popotes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/deshechar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/deshechar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/puntos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/puntos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/reciclar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/reciclar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="593" />
+    <option name="y" value="-14" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Chambee-master/Chambee-master" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b32554a1-6d75-43cd-954a-7b72fad1dc6e" name="Default Changelist" comment="" />
+      <created>1570425834465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570425834465</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3296131" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>
